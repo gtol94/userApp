@@ -19,4 +19,8 @@ public class PackageData implements Serializable {
         this.students = students;
         this.operationType = operationType;
     }
+    public PackageData(ArrayList<Student> students) {
+        this.students = students;
+
+    }
 }
